@@ -19,11 +19,18 @@
         <img src="images/loader.gif" class="ajax-loader"/>
     </div>
   </section>
-   <script type="text/javascript" src="vendors/jquery.min.js"></script>
-  <script type="text/javascript" src="vendors/angular/angular.min.js"></script>
-   <script type="text/javascript" src="vendors/angular/angular-route.min.js"></script>
-  <script type="text/javascript" src="vendors/angular-ui-router.min.js"></script>
-  <script type="text/javascript" src="app/app.js"></script>
+   <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+   <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+  <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="app/app.module.js"></script>
+  <script type="text/javascript" src="app/app.config.js"></script>
+  <script type="text/javascript" src="app/modules/common/common.module.js"></script>
+  <script type="text/javascript" src="app/modules/common/directives/loader.directive.js"></script>
+  <script type="text/javascript" src="app/modules/common/factories/loader.interceptor.js"></script>
+  <script type="text/javascript" src="app/modules/login/login.module.js"></script>
+  <script type="text/javascript" src="app/modules/login/controllers/login.controller.js"></script>
+
   <script type="text/javascript" src="app/loginCtrl.js"></script>
 </body>
 </html>
